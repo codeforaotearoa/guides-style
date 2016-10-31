@@ -7,7 +7,7 @@ Gem::Specification.new do |s|
   s.name          = 'odtk-style'
   s.version       = GuidesStyle18F::VERSION
   s.authors       = ['Vaishnavi Iyer', 'Marcus Crane']
-  s.email         = ['marcus@thingsima.de']
+  s.email         = ['vaishnavi@codeforaotearoa.org', 'marcus@codeforaotearoa.org']
   s.summary       = 'CFA Open Data Tool Kit styles'
   s.description   = (
     'The Code for Aotearoa ODTK theme is based on ' \
