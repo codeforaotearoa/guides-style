@@ -4,19 +4,18 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 require 'guides_style_18f/version'
 
 Gem::Specification.new do |s|
-  s.name          = 'guides_style_18f'
+  s.name          = 'odtk-style'
   s.version       = GuidesStyle18F::VERSION
-  s.authors       = ['Mike Bland']
-  s.email         = ['michael.bland@gsa.gov']
-  s.summary       = '18F Guides Template style elements'
+  s.authors       = ['Vaishnavi Iyer', 'Marcus Crane']
+  s.email         = ['marcus@thingsima.de']
+  s.summary       = 'CFA Open Data Tool Kit styles'
   s.description   = (
-    'Provides consistent style elements for documents based on the ' \
+    'The Code for Aotearoa ODTK theme is based on ' \
     '18F Guides Template (https://pages.18f.gov/guides-template/). ' \
-    'The 18F Guides theme is based on ' \
-    'DOCter (https://github.com/cfpb/docter/) from ' \
+    'which is based on DOCter (https://github.com/cfpb/docter/) from ' \
     'CFPB (http://cfpb.github.io/).'
   )
-  s.homepage      = 'https://github.com/18F/guides-style'
+  s.homepage      = 'https://github.com/codeforaotearoa/odtk-style'
   s.license       = 'CC0'
 
   s.files         = `git ls-files -z *.md lib assets`.split("\x0")
