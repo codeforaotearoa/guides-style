@@ -4,7 +4,7 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 require 'guides_style_18f/version'
 
 Gem::Specification.new do |s|
-  s.name          = 'odtk-style'
+  s.name          = 'guides_style_18f'
   s.version       = GuidesStyle18F::VERSION
   s.authors       = ['Vaishnavi Iyer', 'Marcus Crane']
   s.email         = ['vaishnavi@codeforaotearoa.org', 'marcus@codeforaotearoa.org']
