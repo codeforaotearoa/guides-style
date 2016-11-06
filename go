@@ -64,6 +64,10 @@ def_command :build, 'Test and build the gem' do |args|
   exec_cmd "rake build #{args_to_string args}"
 end
 
+def_command :build_force, 'Build without running tests' do |args|
+  exec_cmd "rake build #{args_to_string args}"
+end
+
 def_command :release, 'Test, build, and release a new gem' do
   test
   exec_cmd 'rake release'
